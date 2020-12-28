@@ -94,6 +94,7 @@ typedef enum {
 + (instancetype)cycleScrollViewWithFrame:(CGRect)frame shouldInfiniteLoop:(BOOL)infiniteLoop imageNamesGroup:(NSArray *)imageNamesGroup;
 
 
+@property (nonatomic, weak) UICollectionView *mainView; // 显示图片的collectionView
 //////////////////////  数据源API //////////////////////
 
 /** 网络图片 url string 数组 */
